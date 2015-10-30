@@ -11,7 +11,6 @@ group :development, :test do
 end
 
 group :test do
-  gem 'sqlite3'
   gem 'vcr', '~> 2.9.3'
   gem 'webmock', '~> 1.21.0'
 end
